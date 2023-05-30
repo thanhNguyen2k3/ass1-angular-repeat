@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "title": "test",
+      "description": "test",
+      "price": 20000,
+      "id": 4
+    },
+    {
+      "title": "product 1",
+      "description": "description 1",
+      "price": 20000,
+      "id": 5
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "price": 20000,
+      "id": 6
+    }
+  ]
+}

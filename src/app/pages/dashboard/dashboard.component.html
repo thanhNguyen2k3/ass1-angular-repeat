@@ -1,0 +1,24 @@
+<p>dashboard works!</p>
+
+<table class="table table-light">
+    <thead>
+        <tr>
+            <td>Stt</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{product.title}}</td>
+            <td>{{product.description}}</td>
+            <td>{{product.price}}</td>
+            <td>
+                <button class="btn" (click)="handleRemove(product.id)">Delete</button>
+                <button class="btn btn-primary">Xem</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
